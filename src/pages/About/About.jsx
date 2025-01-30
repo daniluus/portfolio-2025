@@ -4,6 +4,7 @@ function About() {
 
     return (
         <>
+            
             <h2 className="title">About me</h2>
 
             <section className="max-w-5xl">
@@ -14,9 +15,18 @@ function About() {
                 <p className='parag'>Currently, I’m diving deeper into Node.js with the goal of becoming a Full Stack Developer, continuously expanding my skill set and staying at the forefront of technology and design.</p>
             </section>
 
-            <section className='mx-6 my-6'>
+            <section className='text-lg mx-6 my-6'>
+                <h2 className='font-bold'>Motion</h2>
                 <p>SKILLS: Motion Graphics | Edição de fotos e vídeos</p>
                 <p>SOFTWARES: Pacote Adobe | Figma</p>
+            </section>
+
+            <section className='text-lg mx-6 my-6'>
+                <h2 className='font-bold'>Web Development</h2>             
+                <p>LANGUAGES: JavaScript (ES6+), HTML5, CSS3, Node.js.</p>
+                <p>FRAMEWORKS/LIBRARIES: React.js, Vue.js - Vuetify, Tailwind CSS, Express.</p>
+                <p>TOOLS: Git, Webpack, Vite, Figma</p>
+                <p>OTHER SKILLS: Responsive Design, RESTful APIs, GraphQL.</p>
             </section>
 
         </>
